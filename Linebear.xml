@@ -72,7 +72,18 @@
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_stop" id="18"></block>
+                                  <block type="movement_stop" id="18">
+                                    <next>
+                                      <block type="led_select" id="113" inline="true">
+                                        <field name="ACTION">ON</field>
+                                        <value name="LED">
+                                          <block type="math_number" id="120">
+                                            <field name="NUM">2</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
                                 </next>
                               </block>
                             </next>
