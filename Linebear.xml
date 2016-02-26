@@ -127,7 +127,4 @@
       </block>
     </value>
   </block>
-  <block type="led_select" id="127" inline="true" x="701" y="263">
-    <field name="ACTION">ON</field>
-  </block>
 </xml>
