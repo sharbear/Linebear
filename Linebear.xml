@@ -14,7 +14,7 @@
             <field name="OP">LT</field>
             <value name="A">
               <block type="sensor_spectrometer" id="5">
-                <field name="LIGHT">YELLOW</field>
+                <field name="LIGHT">BLUE</field>
               </block>
             </value>
             <value name="B">
@@ -64,39 +64,39 @@
                               </block>
                             </value>
                             <next>
-                              <block type="led_select" id="68" inline="true">
+                              <block type="led_select" id="18" inline="true">
                                 <field name="ACTION">ON</field>
                                 <value name="LED">
-                                  <block type="math_number" id="98">
+                                  <block type="math_number" id="19">
                                     <field name="NUM">1</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="led_select" id="113" inline="true">
+                                  <block type="led_select" id="20" inline="true">
                                     <field name="ACTION">ON</field>
                                     <value name="LED">
-                                      <block type="math_number" id="120">
+                                      <block type="math_number" id="21">
                                         <field name="NUM">2</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="led_select" id="121" inline="true">
+                                      <block type="led_select" id="22" inline="true">
                                         <field name="ACTION">ON</field>
                                         <value name="LED">
-                                          <block type="math_number" id="122">
+                                          <block type="math_number" id="23">
                                             <field name="NUM">3</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="led_select" id="123" inline="true">
+                                          <block type="led_select" id="24" inline="true">
                                             <field name="ACTION">ON</field>
                                             <value name="LED">
-                                              <block type="math_number" id="128">
+                                              <block type="math_number" id="25">
                                                 <field name="NUM">4</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="movement_stop" id="18"></block>
+                                              <block type="movement_stop" id="26"></block>
                                             </next>
                                           </block>
                                         </next>
